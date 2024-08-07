@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  backend:
+    container_name: grpc-server
+    image: grpc-server
+    ports:
+      - "9000:9000"
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    
+  client:
+    container_name: grpc-client
+    image: grpc-client
+    build: 
+      context: ./client
+      dockerfile: Dockerfile

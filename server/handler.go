@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dojeto/grpc-golang/proto"
+	"github.com/dojeto/grpc-demo-go/proto"
 )
 
 type Server struct {

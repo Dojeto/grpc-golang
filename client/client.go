@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/dojeto/grpc-golang/proto"
+	pb "github.com/dojeto/grpc-demo-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
